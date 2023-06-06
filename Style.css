@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(71, 149, 173);
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+    margin-left: 150px;
+}
+.boxContainer{
+    width: 800px;
+    font-size: 16px;
+    max-width: 43em;
+}
+/* .Container{
+    width: 200px;
+    border: solid 2PX;
+    margin-left: 20px;
+    height: 120px;
+} */
+
+.Sub-Container{
+    background-color: #ccc;
+    width: 200px;
+    border: solid 2PX;
+    margin-left: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px #000;
+    
+}
+.user-amount-Container{
+    background-color: #ccc;
+    border: solid 2PX;
+    margin-left: 250px;
+    height: 180px;
+    box-shadow: 0px 0px 20px #000;
+}
+
+/* #Product-title, #user-amount, #check-amount{
+max-height: 40px;
+} */
+
+h3{
+color: #000;
+font-weight: bold;
+}
+
+.output-container{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    border-radius: 2px;
+    color: black;
+    border-style: solid;
+    box-shadow: 0px 0px 20px #fff;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.Submit{
+    background-color: cornflowerblue;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 14px;
+   padding: 4px 4px;
+   border-radius: 4px;
+}
+.List{
+     display: block;
+    flex-direction: row;  
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 30px 18px;
+    box-shadow: 0px 8px 18px #fff;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.subListContent{
+    width: 100px;
+    border-left: 2px solid  #3d5ca1;
+    margin-bottom: 8px;
+    padding: 7px 0;
+}
+.product{
+    font-weight: 500;
+    color: #433;
+}
+
+.amount{
+    color: #433;
+}
+.list-container{
+   display: block;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+.icons-container{
+    width: 5em;
+    margin: 18px;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
+.error{
+    color: #f00;
+}
+.edit{
+    margin-left: auto;
+}
+.edit, .delete{
+    background: transparent;
+    cursor: pointer;
+    margin-left: 20px;
+    border: none;
+    color: #3d5ca1;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
